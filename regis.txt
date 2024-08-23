@@ -1,0 +1,79 @@
+ <html>
+<head>
+<title>student registration page
+</title>
+</head>
+<body bgcolor="pink
+">
+<br>
+<br>
+<form>
+<label>Firstname</label>
+<input type="text" name="firstname"size="15"/><br><br>
+<label>Lastnamne</label>
+<input type="text"name ="lastname"size="15"/>
+<br><br>
+<label>
+course:
+</label>
+<select>
+<option value="course">course</option>
+<option value="BCA">BCA</option>
+<option value="BTECH">BTECH</option>
+<option value="BBA">BBA</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="MTech">MTech</option>
+</select>
+<br>
+<br> 
+<label>
+branch:
+</label>
+<select>
+<option value="branch">branch</option>
+<option value="Civil">Civil</option>
+<option value="Mechanical">Mechanical</option>
+<option value="EEE">EEE</option>
+<option value="ECE">ECE</option>
+<option value="CSE">CSE</option>
+</select>
+<br>
+<br>
+<label>
+Gender:
+<br>
+</lable>
+<input type="radio" value="Male"name="gender" checked/>Male<br>
+<input type="radio"value="female"name="gender"/>Female<br>
+<input type="radio"value="other" name="gender"/>Other<br>
+<br>
+<br>
+<label>
+Phone:
+</label>
+<input type="text"name="country code"value="+91"size="2"/>
+<input type="text"name="phone"size="10"/>
+<br><br>
+Address:
+<br>
+<textarea cols="80"row="5"value="address"/>
+</textarea>
+<br><br>
+Email:
+<input type="email"id="email"name="email"/>
+<br><br><br>
+Password:
+<input type="Password"id="Password"name="Password"/>
+<br><br><br>
+re-type Password:
+<input type="Password"id="repass"name="repass"/>
+<br><br><br>
+<input type="button"value="Submit"/>
+</form>
+</body>
+</html>
+
+
+
+
